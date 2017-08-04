@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'promptregular';
+    src: url('../fonts/prompt-regular-webfont.eot');
+    src: url('../fonts/prompt-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/prompt-regular-webfont.woff2') format('woff2'),
+         url('../fonts/prompt-regular-webfont.woff') format('woff'),
+         url('../fonts/prompt-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ body {
+    /*padding-top: 135px;*/
+    font-family: 'promptregular', sans-serif;
+ }
+ .heading-line {
+   position: relative;
+   font-size: 15px;
+   z-index: 1;
+   overflow: hidden;
+   text-align: center;
+   }
+ a:link {
+ 	text-decoration: none;
+ }
+ a:visited {
+ 	text-decoration: none;
+
+ }
+ a:hover {
+ 	text-decoration: none;
+
+ }
+ a:active {
+ 	text-decoration: none;
+
+ }
+ #MainContent{
+   font-size: 16px;
+ }
+ .disabledTab{
+   pointer-events: none;
+ }
+
+ .brand .navbar-brand {
+   display: flex;
+   align-items: center;
+ }
+ .brand .navbar-brand > img {
+   padding: 10px;
+ }
+
+
+.navbar-default {
+  background-color: #FF9800;
+  border-color: #f9f9f9;
+}
+.navbar-default .navbar-brand, .navbar-default .navbar-link, .navbar-default .btn-link {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-link:hover, .navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
+  color: #616161;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-text, .navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  background-color: #F57C00;
+}
+.navbar-default .navbar-nav > li > .active {
+
+  color: white;
+  background-color: #F57C00;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #F57C00;
+}
+.navbar-default .btn-link[disabled]:hover, fieldset[disabled] .navbar-default .btn-link:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:focus, .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
+  color: white;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  background-color: #FF9800;
+  border-color: transparent;
+}
+.navbar-toggle.navbar-left {
+  float: left;
+  margin-left: 10px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #FF9800;
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #FF9800;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: #F57C00;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-brand{
+    padding-left: 0px;
+  }
+  .navbar-default .navbar-text{
+    padding-left: 15px;
+  }
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #F57C00;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .divider {
+    background-color: white;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: white;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    /*dropdown menu */
+    color: white;
+    background-color:#F57C00;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .dropdown-header {
+    color: #F57C00;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #F57C00;
+  }
+}

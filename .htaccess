@@ -1,0 +1,2 @@
+php_value post_max_size 46384000
+php_value upload_max_filesize 46384000

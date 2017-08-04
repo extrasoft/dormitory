@@ -1,0 +1,101 @@
+register.php
+	registerQuery.php
+login.php
+index.php
+setDormitory.php
+profileEdit.php
+	profileEditQuery.php
+renter.php
+	renterAdd.php
+		renterAddQuery.php
+	renterEdit.php
+		renterEditForm.php
+			renterEditFormQuery.php
+	renterDelete.php
+		renterDeleteForm.php
+			renterDeleteFormQuery.php
+employees.php
+	employeesAdd.php
+		employeesAddQuery.php
+	employeesEdit.php
+		employeesEditForm.php
+			employeesEditFormQuery.php
+	employeesDelete.php
+		employeesDeleteForm.php
+			employeesDeleteFormQuery.php
+dormitoryAdd.php
+	dormitoryAddQuery.php
+roomRename.php
+	roomRenameQuery.php
+waterTariffs.php
+	waterTariffsQuery.php
+electricTariffs.php
+	electricTariffsQuery.php
+bank.php
+	bankAdd.php
+		bankAddQuery.php
+	bankEdit.php
+		bankEditForm.php
+			bankEditQuery.php
+	bankDelete.php
+		bankDeleteForm.php
+			bankDeleteQuery.php
+accessories.php
+	accessoriesAdd.php
+		accessoriesAddQuery.php
+	accessoriesEdit.php
+		accessoriesEditForm.php
+			accessoriesEditQuery.php
+	accessoriesDelete.php
+		accessoriesDeleteForm.php
+			accessoriesDeleteQuery.php
+management.php
+	managementEdit.php
+		managementEditForm.php
+			managementEditMenu1.php
+				managementEditMenu1Query.php
+			managementEditMenu2.php
+				managementEditMenu2Query.php
+			managementEditMenu3.php
+				managementEditMenu3Query.php
+			managementEditMenu4.php
+				managementEditMenu4Query.php
+meter.php
+	meterQuery.php
+bill.php
+	billPayment.php
+	billPaymentQuery.php
+	invoice.php
+dormitoryEdit.php
+	dormitoryEditQuery.php
+roomRenameEdit.php
+	roomRenameEditQuery.php
+waterTariffsEdit.php
+	waterTariffsEditQuery.php
+electricTariffsEdit.php
+	electricTariffsEditQuery.php
+repair.php
+	repairView.php
+	repairEdit.php
+		repairEditQuery.php
+	repairDelete.php
+		repairDeleteQuery.php
+repairDetail.php
+	repairDetailAdd.php
+		repairDetailAddQuery.php
+	repairDetailEdit.php
+		repairDetailEditForm.php
+			repairDetailEditQuery.php
+	repairDetailDelete.php
+		repairDetailDeleteForm.php
+			repairDetailDeleteQuery.php
+payment.php
+	paymentEdit.php
+		paymentEditQuery.php
+webboard.php
+	topicAdd.php
+		topicAddQuery.php
+	webboardDetail.php
+		replyAdd.php
+			replyAddQuery.php
+income.php			
